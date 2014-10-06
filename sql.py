@@ -25,6 +25,7 @@ class Postgres():
         if self.conn:
             self.conn.close()
 
+
 if __name__ == '__main__':
     postgres = Postgres()
     postgres.populate()
